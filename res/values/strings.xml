@@ -1,0 +1,196 @@
+<resources>
+
+    <!-- various text -->
+    <string name="app_name">T-UI</string>
+    <string name="separator_text">>></string>
+    <string name="separator_text_su">$</string>
+    <string name="su">T-UI got SU permissions</string>
+    <string name="nosu">Seems that your device isn\'t properly rooted</string>
+    <string name="permissions_toast">You have to grant at least Storage and Contacts permissions to make t-ui work</string>
+    <string name="permission_error">t-ui has not the permissions to do this</string>
+
+    <!-- app mgr -->
+    <string name="output_appnotfound">Application or package not found</string>
+    <string name="output_hideapp">state: hidden</string>
+    <string name="output_unhideapp">state: shown</string>
+
+    <!-- label -->
+    <string name="share_label">Share</string>
+    <string name="adminrequest_label">Lock the screen on double tap</string>
+    <string name="error_label">Errors:</string>
+
+    <!-- pending operation -->
+    <string name="running">Running:</string>
+    <string name="calling">Calling:</string>
+    <string name="sharing">Sharing:</string>
+
+    <!-- various outputs -->
+    <string name="output_nothingfound">No matches</string>
+
+    <!-- search-->
+    <string name="output_searchingplaystore">Play Store search:</string>
+    <string name="output_searchinggoogle">Google search:</string>
+    <string name="output_search_youtube">YouTube search:</string>
+    <string name="output_search_file">File Search here:</string>
+    <string name="output_nothing_found">Nothing was found</string>
+
+    <!-- telephony -->
+    <string name="output_wifi">WiFi active:</string>
+    <string name="output_data">Mobile Data active:</string>
+    <string name="output_numbernotfound">Contact not found</string>
+    <string name="output_noairplane">Can\'t toggle Airplane Mode on 4.2+ Android Version</string>
+    <string name="output_airplane">Airplane Mode active:</string>
+
+    <!-- files -->
+    <string name="output_isfile">Cant\'t write here. It\'s a file</string>
+    <string name="output_isdirectory">The selected file is a directory</string>
+    <string name="output_filenotfound">File not found</string>
+    <string name="output_ioerror">An unknown I/O error has occurred</string>
+
+    <string name="output_operationdone">Done</string>
+    <string name="output_opening">Opening file:</string>
+
+    <!-- install/uninstall -->
+    <string name="output_installing">Installation triggered:</string>
+    <string name="output_uninstalling">Uninstall triggered:</string>
+    <string name="output_invalidapk">Invalid APK file</string>
+    <string name="output_removetui">Uninstalling t-ui</string>
+
+    <!-- music -->
+    <string name="output_playing">Playing:</string>
+    <string name="output_stopped">Player stopped</string>
+    <string name="output_cantprevious">This is the first song of the queue</string>
+    <string name="output_nomusic">Player wasn\'t started</string>
+    <string
+        name="output_musicfoldererror">Music folder doesn\'t exist, or doesn\'t contain mp3 files.\nYou should set a
+        new one in the settings.txt file
+    </string>
+
+    <!-- command/args -->
+    <string name="output_commandnotfound">Command not found.\nTry to use \"help\"</string>
+    <string name="output_toomanyargs">Too many arguments, try passing only needed</string>
+    <string name="output_invalid_param">Invalid parameter</string>
+
+    <!-- flash -->
+    <string name="output_flashon">Flashlight ON</string>
+    <string name="output_flashoff">Flashlight OFF</string>
+    <string name="output_flashlightnotavailable">Your device doesn\'t support flashlight</string>
+
+    <!-- infos -->
+    <string name="output_about">Francesco Andreuzzi, ITA, Programmer, franzbianconero@gmail.com
+        \n\nLuke Winward, USA, Designer
+        \n\nOpen Source Libraries:
+        \nandre1299-comparestring
+        \nandre1299-realtimetyping
+    </string>
+    <string name="output_refresh">Refreshed apps, contacts and songs</string>
+    <string name="output_rate">Thank you!</string>
+    <string name="output_lookfortutorial">Looking for Tutorial</string>
+
+
+    <string name="help_about">Informations about the app</string>
+    <string name="help_airplane">Toggle Airplane Mode</string>
+    <string
+        name="help_aliases">Print assocs that are currently saved in \"yourmemory\"/t-ui/assoc.txt
+    </string>
+    <string name="help_apps">Manage your apps
+        \nUsage apps [option] [app name]
+        \n\n[option] can be:
+        \n-h [app name] -> hide the app
+        \n-uh [app name] -> unhide the app
+        \n-sh -> show hidden apps
+        \nIf there isn\'t any option, a list of apps will be returned
+        \n\nExample:
+        \napps -h whatsapp
+        \nhide whatsapp
+    </string>
+    <string name="help_clear">Clear the screen</string>
+    <string name="help_call">Perform a call to someone;
+        \nUsage: call number OR name
+        \n\ncall MOTHER
+    </string>
+    <string name="help_contacts">Print your contacts</string>
+    <string name="help_cp">Copy one or more files to a folder
+        \nUsage: [su] cp [files] [folder]
+        \n\nExample:
+        \nsu cp fool.txt fool2.png myFolder
+        \ncp myFile.txt myFolder
+    </string>
+    <string name="help_data">Toggle mobile data. Will always turn off it if WiFi is active</string>
+    <string name="help_flash">Toggle the flashlight</string>
+    <string
+        name="help_help">Print a list of available commands at this moment, or informations about a command
+        \nUsage: help command
+        \n\nExample:
+        \nhelp search
+    </string>
+    <string name="help_install">Install an apk
+        \nUsage: install pathToApk
+        \n\nExample
+        \ninstall download/dropbox.apk
+    </string>
+    <string name="help_mv">Move one or more files to a folder
+        \nUsage: [su] mv [files] [folder]
+        \n\nsu mv fool.txt fool2.png myFolder
+        \nmv fool.txt myFolder
+    </string>
+    <string name="help_next">Play the next track in the queue</string>
+    <string name="help_listen">Play a specific track
+        \nUsage: listen trackname
+        \n\nExample:
+        \nplay back in black
+        \n\n(The track has to be located in your Music Folder)
+    </string>
+    <string name="help_previous">Play the last track played</string>
+    <string name="help_rate">Help T-UI with a positive rate (or negative, I don\'t know)\t;)</string>
+    <string name="help_refresh">Refresh apps, contacts and songs</string>
+    <string name="help_remove">Uninstall t-ui automatically.
+        \n\nMake sure you have another Launcher!
+    </string>
+    <string name="help_restart">Restart t-ui and load modified values</string>
+    <string name="help_rm">Remove a file:
+        \nUsage: [su] rm [files]
+        \n\nExample:
+        \n\nsu rm fool.txt fool2.png
+        \nrm Downloads/fool.txt
+    </string>
+    <string name="help_search">Search something somewhere
+        \nUsage: search [option] something
+        \n\n[option] can be:
+        \n-g -> (Google Search)
+        \n-p -> (Google Play Store)
+        \n-f -> (Files)
+        \n-y -> (YouTube)
+        \n\nExample:
+        \nsearch -p T-UI
+    </string>
+    <string name="help_share">Share a file
+        \nUsage: share pathToFile
+        \n\nExample:
+        \nshare fool.jpg
+    </string>
+    <string name="help_stop">Stop the player</string>
+    <string name="help_time">Print current time</string>
+    <string name="help_track">Print informations about the current track</string>
+    <string name="help_tracks">Print all of the tracks in your music folder</string>
+    <string name="help_tutorial">Go to T-UI tutorial page</string>
+    <string name="help_uninstall">Uninstall an application
+        \nUsage: uninstall appName OR packageName
+        \n\nExample:
+        \nuninstall dropbox
+    </string>
+    <string name="help_wifi">Toggle wifi</string>
+
+    <!-- linux -->
+    <string name="help_cd">Change the current directory
+        \nUsage: cd path
+        \n\nExample:
+        \ncd /storage/sdcard1/DCIM
+    </string>
+    <string name="help_open">Open a file with the default application
+        \nUsage: open pathToFile
+        \n\nExample:
+        \nopen docs/fool.txt
+    </string>
+
+</resources>

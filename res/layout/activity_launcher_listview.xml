@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mainview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- this is above all -->
+    <include layout="@layout/about_device_view" android:id="@+id/device_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- this is below all-->
+    <include layout="@layout/suggestions_layout" android:id="@+id/suggestions_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+    <!--this is in the center of the screen -->
+    <ScrollView android:id="@+id/scroll_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/suggestions_id"
+        android:layout_below="@id/device_view"
+
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout android:id="@+id/commandview_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"/>
+
+    </ScrollView>
+
+</RelativeLayout>

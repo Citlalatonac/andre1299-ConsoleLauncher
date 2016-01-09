@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/mainview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="left|top"
+    android:orientation="vertical">
+
+    <include layout="@layout/about_device_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="left|top"
+        android:orientation="vertical">
+
+        <TextView android:id="@+id/cd_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <GridView
+            android:id="@+id/files_gv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+
+            android:isScrollContainer="false"
+            android:listSelector="@null"
+
+            android:numColumns="auto_fit"
+
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

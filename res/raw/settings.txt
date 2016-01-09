@@ -1,0 +1,41 @@
+// do not edit the settingsVersion property!
+settingsVersion=3.2
+
+// when you are ready go back to t-ui and type "restart" to see changes
+
+// skin
+deviceColor=#ffff9800
+inputColor=#ff00ff00
+outputColor=#ffffffff
+backgroundColor=#ff004d40
+useSystemFont=false
+fontSize=15
+filesColor=#ffffffff
+foldersColor=#ffffffff
+ramColor=#fff44336
+directoryColor=#ff607d8b
+fileColumns=2
+showHiddenFiles=false
+inputFieldBottom=true
+username=edit_this_in_t-ui_folder
+showUsername=true
+showSubmit=true
+deviceName=null
+showRam=true
+showDevice=true
+suggestionBg=#ffffffff
+suggestionColor=#ff000000
+
+// pre-load
+useSystemWallpaper=false
+showFileManager=false
+fullscreen=false
+
+// music
+playRandom=true
+songsFolder=/sdcard/Music
+
+// others
+closeOnDbTap=true
+useIntelligentDeletion=true
+showSuggestions=true
